@@ -1,0 +1,59 @@
+/* style.css */
+
+.inline-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+    background-color: #ffcccc; /* Tablo arka plan rengi */
+}
+
+.inline-table th {
+    border: 1px solid #ff6666; /* Tablo başlık çerçeve rengi */
+    text-align: left;
+    padding: 12px;
+    background-color: #ff9999; /* Tablo başlık arka plan rengi */
+    font-size: 18px;
+    color: #ffffff; /* Tablo başlık metin rengi */
+}
+
+.inline-table td {
+    border: 1px solid #ff6666; /* Hücre çerçeve rengi */
+    text-align: left;
+    padding: 12px;
+    background-color: #ffc2b3; /* Hücre arka plan rengi */
+    color: #4d4d4d; /* Hücre metin rengi */
+}
+
+/* Tablo 2: Internal CSS */
+.internal-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+    background-color: #d3ffd3;
+}
+
+.internal-table th {
+    border: 1px solid #5cd65c;
+    text-align: left;
+    padding: 12px;
+    background-color: #80ff80;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Tablo 3: External CSS */
+.external-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+    background-color: #ffe0b3;
+}
+
+.external-table th {
+    border: 1px solid #ff9900;
+    text-align: left;
+    padding: 12px;
+    background-color: #ffb366;
+    font-size: 18px;
+    color: #ffffff;
+}

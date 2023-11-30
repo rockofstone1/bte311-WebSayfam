@@ -75,25 +75,70 @@
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
-                        <h5 class="title-left">5-6. Hafta Ödev 1 (renkli-tablo1.html)</h5>
+                        <h5 class="title-left">5-6. Hafta Ödev 2 (Renkler)</h5>
                        <br> 
 
-                       <p><span class="title-s">Ders Programı</span> <br> <span></span></p>
-
-<link rel="stylesheet" href="tablo1stil.css">
-          
-<p>
-  Uyarı: Vize notu lab görevlerinden verilecektir. Şimdiye kadar verilmeyen gitHub linkleri -10 puandır. 90 üzerinden değerlendirilecektir.
-  Görev 1
-  Bir tablonun üç kopyası olacak. Bu tablo için ders programı tablonuzu kullanabilirsiniz.
-  Ilk kopyada biçim özellikleri Inline CSS, 2. kopyada Internal CSS üçücü kopyada, External CSS
-  Kaynak:
-  https://www.tercihyazilim.com/Page/css-font-ozellikleri
-</p>
-
-
-                      
-
+                       
+                       <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Büyük İç İçe Geçmiş Tam Yuvarlaklar</title>
+                        <style>
+                            .circle-container {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 100vh;
+                            }
+                    
+                            .circle {
+                                width: 300px; /* %50 daha büyük */
+                                height: 300px; /* %50 daha büyük */
+                                border-radius: 50%;
+                                background-color: rgba(255, 0, 0, 0.7);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                    
+                            .circle-2 {
+                                width: 225px; /* %50 daha büyük */
+                                height: 225px; /* %50 daha büyük */
+                                border-radius: 50%;
+                                background-color: rgba(0, 255, 0, 0.7);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin-top: -112.5px; /* Yukarıya doğru yarı yükseklik kadar kaydırarak iç içe geçmiş efekti sağlar */
+                                margin-left: 112.5px; /* Sağa doğru yarı genişlik kadar kaydırarak iç içe geçmiş efekti sağlar */
+                            }
+                    
+                            .circle-3 {
+                                width: 150px; /* %50 daha büyük */
+                                height: 150px; /* %50 daha büyük */
+                                border-radius: 50%;
+                                background-color: rgba(0, 0, 255, 0.7);
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin-top: -75px; /* Yukarıya doğru yarı yükseklik kadar kaydırarak iç içe geçmiş efekti sağlar */
+                                margin-left: 75px; /* Sağa doğru yarı genişlik kadar kaydırarak iç içe geçmiş efekti sağlar */
+                            }
+                        </style>
+                    </head>
+                    <body>
+                    
+                        <div class="circle-container">
+                            <div class="circle">
+                                <div class="circle-2">
+                                    <div class="circle-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </body>
+                    </html>
+                       
 
                       </div>
                     </div>

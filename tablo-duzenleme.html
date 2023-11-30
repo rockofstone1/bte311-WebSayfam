@@ -75,57 +75,58 @@
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info">
-                        <h5 class="title-left">4. Hafta Ödev 1 (form1.html)</h5>
+                        <h5 class="title-left">3. Hafta Ödev 2</h5>
                        <br> 
 
-                       <p><span class="title-s">Web Programcılığı Testi</span> <br> <span></span></p>
+                       <p><span class="title-s">Tablo Düzenleme</span> <br> <span></span></p>
 
-                       <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Formu</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        form {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        fieldset {
-            margin-bottom: 20px;
-        }
-        legend {
-            font-weight: bold;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-    </style>
-</head>
-<body>
-
-    <form>
-        <fieldset>
-            <legend>Soru 1 (Radio Button)</legend>
-            <label for="soru1_secenek1"><input type="radio" name="soru1" id="soru1_secenek1" value="A"> A) Seçenek A</label>
-            <label for="soru1_secenek2"><input type="radio" name="soru1" id="soru1_secenek2" value="B"> B) Seçenek B</label>
-            <label for="soru1_secenek3"><input type="radio" name="soru1" id="soru1_secenek3" value="C"> C) Seçenek C</label>
-        </fieldset>
-
-        <fieldset>
-            <legend>Soru 2 (Checkbox)</legend>
-            <label for="soru2_secenek1"><input type="checkbox" name="soru2[]" id="soru2_secenek1" value="A"> A) Seçenek A</label>
-            <label for="soru2_secenek2"><input type="checkbox" name="soru2[]" id="soru2_secenek2" value="B"> B) Seçenek B</label>
-            <label for="soru2_secenek3"><input type="checkbox" name="soru2[]" id="soru2_secenek3" value="C"> C) Seçenek C</label>
-        </fieldset>
-
-        <input type="submit" value="Gönder">
-    </form>
-
-</body>
-</html>
+                       <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+                       <hr>
+                       
+                       <form>
+                           <h4>Hesap Bilgileriniz</h4>
+                           <p>
+                               Kullanıcı Adı : <input type="text" name="username" placeholder="Kullanıcı adı giriniz" required>
+                           </p>
+                           <p>
+                               Eposta : <input type="email" name="eposta" placeholder="Eposta giriniz" required>
+                           </p>
+                           <p>
+                               Parola : <input type="password" name="parola" placeholder="parola giriniz" required>
+                           </p>
+                       
+                           <h4>Kişisel Bilgileriniz</h4>
+                           <p>
+                               Ad: <input type="text" name="ad">
+                           </p>
+                           <p>
+                               Soyad :<input type="text" name="soyad">
+                           </p>
+                           <p>
+                               Şehir :
+                               <select name="sehir">
+                                   <option>Seçiniz</option>
+                                   <option>Ankara</option>
+                                   <option>İstanbul</option>
+                                   <option>Kocaeli</option>
+                               </select>
+                           </p>
+                           <p>
+                               Cinsiyet :
+                               <input type="radio" name="cinsiyet"> Erkek
+                               <input type="radio" name="cinsiyet"> Kadın
+                           </p>
+                           <p>
+                               Hobileriniz :
+                               <input type="checkbox" name="hobiler">Sinema
+                               <input type="checkbox" name="hobiler">Gezmek
+                               <input type="checkbox" name="hobiler">Spor
+                               <input type="checkbox" name="hobiler">Kitap
+                           </p>
+                       
+                           <input type="submit" value="Kaydet">
+                       </form>
+                       
 
 
                       </div>
