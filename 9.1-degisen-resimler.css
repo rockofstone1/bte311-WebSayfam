@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.random-image-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /* Yüceğiniz yuvarlak boyutu */
+    height: 100px; /* Yüceğiniz yuvarlak boyutu */
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.random-image-container img {
+    width: 100%; /* Yüzde 100 genişlik */
+    height: 100%; /* Yüzde 100 yükseklik */
+    object-fit: cover; /* Orantılı olarak büyütme, en-boy oranını korur */
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 150px; /* %50 daha büyük */
+    height: 150px; /* %50 daha büyük */
+    margin-bottom: 10px;
+    object-fit: cover; /* Orantılı olarak büyütme, en-boy oranını korur */
+}
+
+#imageContainer {
+    display: none;
+}
+
